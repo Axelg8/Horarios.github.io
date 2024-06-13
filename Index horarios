@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Horarios de Empleados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Control de Horarios de Empleados</h1>
+    </header>
+
+    <section id="schedule">
+        <h2>Horario de Empleados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Empleado</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Raii</td>
+                    <td id="e1-mon"></td>
+                    <td id="e1-tue"></td>
+                    <td id="e1-wed"></td>
+                    <td id="e1-thu"></td>
+                    <td id="e1-fri"></td>
+                    <td id="e1-sat"></td>
+                    <td id="e1-sun"></td>
+                </tr>
+                <tr>
+                    <td>Lilibeth</td>
+                    <td id="e2-mon"></td>
+                    <td id="e2-tue"></td>
+                    <td id="e2-wed"></td>
+                    <td id="e2-thu"></td>
+                    <td id="e2-fri"></td>
+                    <td id="e2-sat"></td>
+                    <td id="e2-sun"></td>
+                </tr>
+                <tr>
+                    <td>Axel</td>
+                    <td id="e3-mon"></td>
+                    <td id="e3-tue"></td>
+                    <td id="e3-wed"></td>
+                    <td id="e3-thu"></td>
+                    <td id="e3-fri"></td>
+                    <td id="e3-sat"></td>
+                    <td id="e3-sun"></td>
+                </tr>
+                <tr>
+                    <td>Gabriel</td>
+                    <td id="e4-mon"></td>
+                    <td id="e4-tue"></td>
+                    <td id="e4-wed"></td>
+                    <td id="e4-thu"></td>
+                    <td id="e4-fri"></td>
+                    <td id="e4-sat"></td>
+                    <td id="e4-sun"></td>
+                </tr>
+                <tr>
+                    <td>Agni</td>
+                    <td id="e5-mon"></td>
+                    <td id="e5-tue"></td>
+                    <td id="e5-wed"></td>
+                    <td id="e5-thu"></td>
+                    <td id="e5-fri"></td>
+                    <td id="e5-sat"></td>
+                    <td id="e5-sun"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="generateSchedule()">Generar Horarios</button>
+    </section>
+
+    <footer>
+        <p>Contacto: info@restaurante.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
